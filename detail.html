@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dbracelet - Product Detail</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">D<span>Bracelet</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#product">Product</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="detail-section">
+    <div class="gallery">
+      <img id="mainImage" src="" alt="Main product image">
+      <div class="thumbnail-row" id="thumbnailRow"></div>
+    </div>
+
+    <div class="detail-info">
+      <h2 id="productTitle"></h2>
+      <p class="price" id="productPrice"></p>
+      <p class="desc" id="productDesc"></p>
+      <div class="buttons">
+        <button class="btn" onclick="addToCart()">Add to Cart 🛒</button>
+        <button class="btn gold" onclick="checkout()">Checkout 💳</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Dbracelet. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

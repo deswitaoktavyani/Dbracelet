@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dbracelet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">D<span>Bracelet</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home-section">
+    <h1>Welcome to Dbracelet 💎</h1>
+    <p>Elegance in every detail — discover our exclusive collection.</p>
+    <a href="#product" class="btn">Shop Now</a>
+  </section>
+
+  <section id="product" class="section product-section">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card" onclick="viewProduct('product1')">
+        <img src="assets/product1/product1_1.jpg" alt="Royal Gold Bracelet">
+        <h3>Royal Gold Bracelet</h3>
+        <p>Rp 599.000</p>
+      </div>
+
+      <div class="product-card" onclick="viewProduct('product2')">
+        <img src="assets/product2/product2_1.jpg" alt="Blue Sapphire Charm">
+        <h3>Blue Sapphire Charm</h3>
+        <p>Rp 749.000</p>
+      </div>
+
+      <div class="product-card" onclick="viewProduct('product3')">
+        <img src="assets/product3/product3_1.jpg" alt="White Pearl Elegance">
+        <h3>White Pearl Elegance</h3>
+        <p>Rp 899.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Us</h2>
+    <p>Get in touch for custom designs and collaborations.</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Dbracelet. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+   
