@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://deswitaoktavyani.github.io/dbracelet/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <priority>1.00</priority>
+    <loc>https://deswitaoktavyani.github.io/Dbracelet/</loc>
+    <priority>1.0</priority>
   </url>
-
-  <url>
-    <loc>https://deswitaoktavyani.github.io/dbracelet/#home</loc>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://deswitaoktavyani.github.io/dbracelet/#product</loc>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://deswitaoktavyani.github.io/dbracelet/#contact</loc>
-    <priority>0.70</priority>
-  </url>
-
 </urlset>
