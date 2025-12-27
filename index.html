@@ -1,78 +1,188 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dbracelet</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G888LMTG84"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-G888LMTG84');
-</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>D'Bracelet – Gelang Handmade Eksklusif & Custom</title>
+
+  <!-- SEO META -->
+  <meta name="description" content="D'Bracelet menyediakan gelang handmade berkualitas, desain unik dan custom. Cocok untuk hadiah dan penggunaan sehari-hari." />
+  <meta name="keywords" content="gelang handmade, gelang custom, gelang rajut, aksesoris handmade, dbracelet" />
+  <meta name="author" content="D'Bracelet" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="D'Bracelet – Gelang Handmade Eksklusif" />
+  <meta property="og:description" content="Koleksi gelang handmade dengan desain unik dan berkualitas tinggi." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://deswitaoktavyani.github.io/dbracelet/" />
+  <meta property="og:image" content="https://deswitaoktavyani.github.io/dbracelet/assets/gelangA/gelangA_1.jpg" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G888LMTG84"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-G888LMTG84');
+  </script>
+
+  <!-- ================= BUSINESS / STORE SCHEMA ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "D'Bracelet",
+    "url": "https://deswitaoktavyani.github.io/dbracelet/",
+    "description": "D'Bracelet adalah usaha gelang handmade eksklusif dan custom dengan desain unik dan kualitas premium.",
+    "image": "https://deswitaoktavyani.github.io/dbracelet/assets/gelangA/gelangA_1.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ID"
+    },
+    "sameAs": [
+      "https://instagram.com/dsxwt_"
+    ]
+  }
+  </script>
+
+  <!-- ================= PRODUCT 1 ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Royal Gold Bracelet",
+    "image": [
+      "https://deswitaoktavyani.github.io/dbracelet/assets/product1/product1_1.jpg"
+    ],
+    "description": "Gelang handmade eksklusif dengan sentuhan emas, cocok untuk hadiah dan penggunaan elegan sehari-hari.",
+    "sku": "RGB-001",
+    "brand": {
+      "@type": "Brand",
+      "name": "D'Bracelet"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://deswitaoktavyani.github.io/dbracelet/",
+      "priceCurrency": "IDR",
+      "price": "599000",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  }
+  </script>
+
+  <!-- ================= PRODUCT 2 ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Blue Sapphire Charm",
+    "image": [
+      "https://deswitaoktavyani.github.io/dbracelet/assets/product2/product2_1.jpg"
+    ],
+    "description": "Gelang handmade dengan aksen batu sapphire biru yang elegan dan modern.",
+    "sku": "BSC-002",
+    "brand": {
+      "@type": "Brand",
+      "name": "D'Bracelet"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://deswitaoktavyani.github.io/dbracelet/",
+      "priceCurrency": "IDR",
+      "price": "749000",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  }
+  </script>
+
+  <!-- ================= PRODUCT 3 ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "White Pearl Elegance",
+    "image": [
+      "https://deswitaoktavyani.github.io/dbracelet/assets/product3/product3_1.jpg"
+    ],
+    "description": "Gelang handmade dengan mutiara putih yang memberikan kesan mewah dan feminin.",
+    "sku": "WPE-003",
+    "brand": {
+      "@type": "Brand",
+      "name": "D'Bracelet"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://deswitaoktavyani.github.io/dbracelet/",
+      "priceCurrency": "IDR",
+      "price": "899000",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  }
+  </script>
 </head>
+
 <body>
-  <header class="navbar">
-    <div class="logo">D<span>Bracelet</span></div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#product">Product</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<header class="navbar">
+  <div class="logo">D<span>Bracelet</span></div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <section id="home" class="section home-section">
-    <h1>Welcome to Dbracelet 💎</h1>
-    <p>Elegance in every detail — discover our exclusive collection.</p>
-    <a href="#product" class="btn">Shop Now</a>
-  </section>
+<section id="home" class="section home-section">
+  <h1>Welcome to Dbracelet 💎</h1>
+  <p>Elegance in every detail — discover our exclusive collection.</p>
+  <a href="#product" class="btn">Shop Now</a>
+</section>
 
-  <section id="product" class="section product-section">
-    <h2>Our Products</h2>
-    <div class="product-grid">
-      <div class="product-card" onclick="viewProduct('product1')">
-        <img src="assets/product1/product1_1.jpg" alt="Royal Gold Bracelet">
-        <h3>Royal Gold Bracelet</h3>
-        <p>Rp 599.000</p>
-      </div>
-
-      <div class="product-card" onclick="viewProduct('product2')">
-        <img src="assets/product2/product2_1.jpg" alt="Blue Sapphire Charm">
-        <h3>Blue Sapphire Charm</h3>
-        <p>Rp 749.000</p>
-      </div>
-
-      <div class="product-card" onclick="viewProduct('product3')">
-        <img src="assets/product3/product3_1.jpg" alt="White Pearl Elegance">
-        <h3>White Pearl Elegance</h3>
-        <p>Rp 899.000</p>
-      </div>
+<section id="product" class="section product-section">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="assets/product1/product1_1.jpg" alt="Royal Gold Bracelet">
+      <h3>Royal Gold Bracelet</h3>
+      <p>Rp 599.000</p>
     </div>
-  </section>
 
-  <section id="contact" class="section contact-section">
-    <h2>Contact Us</h2>
-    <p>Get in touch for custom designs and collaborations.</p>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
+    <div class="product-card">
+      <img src="assets/product2/product2_1.jpg" alt="Blue Sapphire Charm">
+      <h3>Blue Sapphire Charm</h3>
+      <p>Rp 749.000</p>
+    </div>
 
-  <footer>
-    <p>© 2025 Dbracelet. All rights reserved.</p>
-  </footer>
+    <div class="product-card">
+      <img src="assets/product3/product3_1.jpg" alt="White Pearl Elegance">
+      <h3>White Pearl Elegance</h3>
+      <p>Rp 899.000</p>
+    </div>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section id="contact" class="section contact-section">
+  <h2>Contact Us</h2>
+  <p>Get in touch for custom designs and collaborations.</p>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Dbracelet. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
-
-
-   
